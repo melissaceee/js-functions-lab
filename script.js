@@ -110,3 +110,41 @@ function greetUser(name, timeOfDay) {
 console.log('Exercise 5 Result:', greetUser("Bob", "morning"));
 console.log('Exercise 5 Result:', greetUser("Bob", "afternoon"));
 console.log('Exercise 5 Result:', greetUser("Bob", "evening"));
+
+
+/*
+Exercise 6: reverseString()
+
+Define a function called reverseString. It should take a string and return it with its characters in reverse order. 
+
+Example: reverseString('rockstar') should return the string "ratskcor".
+
+Complete the exercise in the space below:
+*/
+
+function reverseString (reverse) {
+    let reverseString = "";
+    for (let x = reverse.length - 1; x>=0; x--){
+        reverseString = reverseString + reverse[x];
+    } 
+    return reverseString;
+}
+
+console.log('Exercise 6 Result:', reverseString("rockstar"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
