@@ -84,4 +84,29 @@ let domain = 'example.com';
 
 console.log('Exercise 4 Result:', generateEmail(name, domain));
 
+/*
+Exercise 5: greetUser()
 
+Define a function called greetUser. It should take a name and a time of day (morning, afternoon, evening) and return a personalized greeting.
+
+Example: greetUser('Sam', 'morning') should return "Good morning, Sam!"
+
+Complete the exercise in the space below:
+*/
+
+
+function greetUser(name, timeOfDay) {
+    if (timeOfDay === 'morning') {
+        return 'Good morning,' + name + '!';
+    } else if (timeOfDay === 'afternoon'){
+        return 'Good afternoon,' + name + '!';
+    } else if (timeOfDay === 'evening') {
+        return 'Good evening,' + name + '!';
+    } else {
+        return 'Hello,' +name ;
+    }
+}
+
+console.log('Exercise 5 Result:', greetUser("Bob", "morning"));
+console.log('Exercise 5 Result:', greetUser("Bob", "afternoon"));
+console.log('Exercise 5 Result:', greetUser("Bob", "evening"));
