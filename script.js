@@ -328,23 +328,14 @@ Exercise 14: numArgs()
 Challenge yourself with numArgs. 
 This function should return the count of arguments passed to it when called.
 Complete the exercise in the space below:
+// rest parameter section
 */
 
-function numArgs ()
 
-
-
-
+function numArgs (...nums){
+ return nums.length
+}
   console.log('Exercise 14 Result:', numArgs(1, 2, 3, 4));
   
   
-
-
-
-
-
-
-
-
-
 
