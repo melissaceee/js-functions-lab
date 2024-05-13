@@ -124,7 +124,7 @@ Complete the exercise in the space below:
 
 function reverseString (reverse) {
     let reverseString = "";
-    for (let x = reverse.length - 1; x>=0; x--){
+    for (let x = reverse.length - 1; x>=0; x--){ 
         reverseString = reverseString + reverse[x];
     } 
     return reverseString;
@@ -132,8 +132,42 @@ function reverseString (reverse) {
 
 console.log('Exercise 6 Result:', reverseString("rockstar"));
 
+/*
+Exercise 7: checkPalindrome()
+
+Define a function called checkPalindrome. It should take a string and return true if the string is a palindrome (reads the same forwards and backwards) and false otherwise.
+
+Example: checkPalindrome('radar') should return true.
+Example: checkPalindrome('taco') should return false.
+
+Complete the exercise in the space below:
+*/
+
+function checkPalindrome (check) {
+let mirror = ""
+    for(let y = check.length -1; y>=0; y--){
+        mirror = mirror + check [y];
+}
+return mirror === check;
+}
+
+console.log('Exercise 7 Result:', checkPalindrome("radar"));
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
